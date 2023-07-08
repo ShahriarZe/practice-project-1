@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-/* 
-Header Part 
-*/
+/* Header Part */
 
 header{
     background-image: url('./images/banner/banner2.png');
@@ -41,13 +39,9 @@ header{
     
 }
 
-/*
- Main Section 
-*/
+/*Main Section*/
 
-/*
- 1st Part
-*/
+/*1st Part*/
 .main-container{
     display: flex;
     width: 1400px;
@@ -87,9 +81,7 @@ li:before{
     padding-top: 20px;
 }
 
-/*
- 2nd Part 
-*/
+/*2nd Part*/
 .plan{
     text-align: center;
     display: flex;
@@ -132,3 +124,41 @@ li:before{
      margin-top: 10px;
      
  }
+
+ /* Footer Part */
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 130px 230px 130px 260px;
+}
+.footer-list{
+    width: 50%;
+    margin-left: 150px;
+}
+.footer-item h1{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.footer-item p{
+    color: #F8F8F8;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-item input{
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footer-item a{
+    margin: 30px;
+}
